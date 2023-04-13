@@ -38,7 +38,7 @@ public class webapptest {
 		// URL url = new URL("http://3.95.161.130:49154/wd/hub");
 		driver = new ChromeDriver(options);
 		// driver.get("http://3.95.161.130:49154/wd/hub");
-		driver.get("http://localhost");
+		driver.get("http://webapp");
 		Thread.sleep(2000);
 		System.out.print("Title of the page is: " + driver.getTitle() + "\n");
 		Assert.assertTrue(driver.getTitle().equals("Intellipaat"), "Page title is not correct");
