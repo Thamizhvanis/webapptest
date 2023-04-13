@@ -19,7 +19,7 @@
                                         <archive>
                                                 <manifest>
                                                         <addClasspath>true</addClasspath>
-                                                        <mainClass>chromebing.chrometest</mainClass>
+                                                        <mainClass>websitetest.webapptest</mainClass>
                                                 </manifest>
                                         </archive>
                                 </configuration>

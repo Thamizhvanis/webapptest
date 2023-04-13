@@ -18,10 +18,11 @@ public class webapptest {
 
 		System.out.print("Test run");
 
+		Browser1();
 	}
 
 	@Test
-	public void Browser1() throws Exception {
+	public static void Browser1() throws Exception {
 
 		WebDriver driver;
 		WebDriverManager.chromedriver().setup();
